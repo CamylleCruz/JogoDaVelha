@@ -1,0 +1,42 @@
+
+.app {
+    text-align: center;
+}
+
+.board{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 4px;
+  
+}
+
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: 24px;
+    border: 2px solid black;
+}
+
+.winner-message{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    background-color: rgb(255, 0, 157);
+    color: white;
+    border:none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+}
